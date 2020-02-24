@@ -34,7 +34,7 @@ setup(
     packages=['libbtproxy'],
     scripts=['scripts/btproxy', 'scripts/replace_bluetoothd', 'scripts/bluez_simple_agent_nouser'],
     long_description=read('README.md').replace('#',''),
-    install_requires=['pybluez>=0.21'],
+    install_requires=['pybluez<=0.22'],
     zip_safe=False,
     classifiers=[
         "Development Status :: 3 - Beta",
